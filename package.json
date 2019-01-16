@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+
+    "dev": " webpack-dev-server --config webpack/webpack.config.dev.js --inline --port 3000 "
+  },
+ "dependencies": {
+  "@angular/common": "~2.2.0",
+  "@angular/core": "~2.2.0"
+  },
+ "devDependencies": {
+  "@types/core-js": "^0.9.0"
+  }
+}
